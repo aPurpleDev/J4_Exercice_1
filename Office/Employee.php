@@ -13,7 +13,7 @@ class Employee
         $this->lastName = $lastName;
     }
 
-    public function work()
+    public function work() : string
     {
         return "Je suis $this->firstName et je bosse !";
     }
